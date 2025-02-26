@@ -1,0 +1,12 @@
+{
+  "name": "@saas-projects/modules",
+  "version": "0.0.1",
+  "dependencies": {
+    "mongoose": "^8.9.5",
+    "@saas-projects/types": "0.0.1"
+  },
+  "type": "module",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
+  "private": true
+}

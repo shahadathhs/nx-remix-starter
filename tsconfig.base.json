@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@saas-projects/layout": ["libs/layout/src/index.ts"],
+      "@saas-projects/layout/server": ["libs/layout/src/server.ts"],
+      "@saas-projects/modules": ["libs/modules/src/index.ts"],
+      "@saas-projects/pages": ["libs/pages/src/index.ts"],
+      "@saas-projects/pages/server": ["libs/pages/src/server.ts"],
+      "@saas-projects/types": ["libs/types/src/index.ts"],
+      "@saas-projects/ui": ["libs/ui/src/index.ts"],
+      "@saas-projects/ui/server": ["libs/ui/src/server.ts"],
+      "@saas-projects/utils": ["libs/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

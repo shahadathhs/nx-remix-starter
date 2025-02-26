@@ -1,0 +1,61 @@
+# Build outputs
+/dist
+*/dist
+/build
+apps/**/build
+/out
+/release
+*.min.js
+*.min.css
+
+# Testing and coverage
+/coverage
+/.nyc_output
+/test-results
+
+# Cache and temporary files
+/.nx/cache
+/.nx/workspace-data
+.cache
+.temp
+.tmp
+*.tsbuildinfo
+
+# Dependencies
+/node_modules
+/bower_components
+/jspm_packages
+/.pnp
+.pnp.js
+
+# IDE and editor files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Logs and databases
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.sqlite
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated files
+/generated
+*.generated.*
+auto-imports.d.ts
+components.d.ts
